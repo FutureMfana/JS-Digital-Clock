@@ -1,0 +1,24 @@
+@font-face{
+    src: url(../fonts/modern_lcd-7.ttf);
+    font-family: time;
+}
+@font-face{
+    src: url(../fonts/wroc1945_2019-04-13.ttf);
+    font-family: date;
+}
+body{
+    background-color: black;
+    color: rgb(85, 143, 85);
+}
+.date{
+    font-size: xx-large;
+    font-family: time;
+}
+.clock{
+    font-family: time;
+    font-size: 100px;
+}
+.date, .clock{
+    width: 100%;
+    text-align: center;
+}
